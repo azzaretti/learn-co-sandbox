@@ -1,0 +1,58 @@
+body {
+  background-color: Lightgreen;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  
+  
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background-color: gray;
+  
+    
+}
+
+li {
+    width: 25%;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+
+p {
+  color:red;
+  background-color: blue;
+  font-size: 40px;
+}
+
+h1 {
+  color:green;
+  font-size: 100px;
+  font-family: 'Cinzel';
+  background-color: gray;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.big-paragraph {
+  color:Lightgreen;
+  background-color: LemonChiffon;
+}
+
+label {
+  color:MidnightBlue;
+  background-color: Snow;
+  font-family: 'Cinzel';
+}
+
+

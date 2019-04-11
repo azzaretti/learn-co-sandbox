@@ -1,0 +1,132 @@
+#wrapper {
+  height: auto;
+  width: auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "buttonBar outputs"
+  "inputs outputs"
+  "inputs outputs"
+  "inputs outputs"
+  "inputs outputs"
+}
+
+#firstPersonOutput, #secondPersonOutput {
+  font-family: 'Cabin Sketch'
+}
+
+#output-wrapper {
+  height: 90%;
+  margin: 35px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#initial-wrapper {
+  align-content: center;
+  margin: 0 auto;
+  letter-spacing: 15px;
+  font-size: 1.5em;
+}
+
+#family {
+  margin-top: 30px;
+  font-size: 0.6em;
+}
+
+#date, #location {
+  font-size: 0.6em;
+}
+
+#cordial {
+  font-size: 0.6em;
+}
+
+
+#output-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: 'Dosis'
+}
+
+span {
+  margin: 0 auto;
+
+}
+
+p {
+  margin: 0 auto;
+}
+
+#invitationTitle {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.textBox {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#inputs {
+  grid-area: inputs;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: WhiteSmoke;
+  width: 70%;
+  height: 80%;
+  font-family: 'Dosis'
+}
+
+#input-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  margin-top: 50px;
+}
+
+.hawaii {
+  grid-area: outputs;
+  height: 600px;
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fde7f9; 
+  background-image: url("http://www.bathartisanmarket.com/wp-content/uploads/2014/06/24-recycled-paper-background-lrg.jpg");
+  font-family: 'Cabin Sketch';
+  color: white;
+  font-size: 2em
+}
+
+#buttonBar {
+  grid-area: buttonBar;
+  display: block;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 0px
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  font-family: 'Dosis';
+}
+
+.invite {
+  font-size: 0.8em;
+  text-align: center;
+}
